@@ -15,19 +15,13 @@ Enhance your website with the Full Screen Navigation Menu, a modern and interact
 
 To use this full-screen navigation menu in your project, follow these steps:
 
-1. Install jQuery:
+1. Install plugin:
 
 ```bash
-npm install jquery
+npm install menu-full-screen
 ```
 
-2. Install the `fullScreenMenu` plugin:
-
-```bash
-npm install full-screen-navigation-menu
-```
-
-3. Include jQuery and the plugin in your HTML file:
+2. Include jQuery and the plugin in your HTML file:
 
 ```html
 <!DOCTYPE html>
@@ -58,7 +52,7 @@ npm install full-screen-navigation-menu
 </html>
 ```
 
-4. Customize the menu styles and settings according to your preferences.
+3. Customize the menu styles and settings according to your preferences.
 
 ## Usage
 
