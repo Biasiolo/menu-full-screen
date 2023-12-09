@@ -1,8 +1,9 @@
 # Full Screen Navigation Menu
+Enhance your website with the Full Screen Navigation Menu, a modern and interactive solution designed to elevate user experience.
 
 [Live aplication](https://menu-full-screen.vercel.app/)
 
-Enhance your website with the Full Screen Navigation Menu, a modern and interactive solution designed to elevate user experience.
+![menu-img](https://github.com/Biasiolo/menu-full-screen/assets/146396015/b52f3007-8b21-4bf2-a817-e9ab21f52b22)
 
 ## Features
 
