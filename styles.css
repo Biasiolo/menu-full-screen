@@ -1,0 +1,179 @@
+/* Reset de estilos */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Advent Pro', sans-serif;
+	overflow-x: hidden;
+	background-color:#3be3ff;
+}
+
+#header-container {
+	width: 5vw;
+	padding: 0 7%;
+	display: table;
+	margin-left: 95vw;
+	max-width: none;
+	background-color: #e65454;
+	height: 5vw;
+	color: #fff;
+	border-bottom-left-radius: 5px;
+}
+
+.content {
+	display: table-cell;
+	vertical-align: middle;
+	color: black;
+}
+
+.nav-trigger {
+	width: 30px;
+	height: 30px;
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	z-index: 20;
+	cursor: pointer;
+	transition: top .2s ease-in;
+}
+
+.nav-trigger span {
+	display: block;
+	width: 100%;
+	height: 2px;
+	background: rgb(61, 61, 61);
+	margin: 7px auto;
+	transition: all 0.2s ease-in;
+}
+
+.nav-trigger.on {
+	top: 10px;
+}
+
+.nav-trigger.on span:first-child {
+	transform: translateY(10px) rotate(45deg);
+}
+
+.nav-trigger.on span:nth-child(2) {
+	transform: translateX(50px);
+	opacity: 0;
+}
+
+.nav-trigger.on span:last-child {
+	transform: translateY(-8px) rotate(-45deg);
+}
+
+.nav-menu {
+	height: 100%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: none;
+	z-index: 19;
+	overflow: hidden;
+}
+
+.nav-menu h2 {
+	margin-top: 2em;
+}
+
+.nav-menu ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	max-width: 100%;
+	text-align: center;
+	position: relative;
+}
+
+.nav-menu a {
+	position: relative;
+	float: left;
+	margin: 0;
+	width: 25%;
+	height: 100vh;
+	text-align: center;
+	cursor: pointer;
+	background: #e65454;
+	color: #3be3ff;
+	text-decoration: none;
+	border: none;
+	font-size: 0;
+}
+
+.nav-menu a:hover {
+	background: #3be3ff;
+	color: #e65454;
+	border: none;
+	text-decoration: none;
+	transition: background 0.8s ease, color 0.3s ease; 
+}
+
+.nav-menu li {
+	position: absolute;
+	text-transform: uppercase;
+	font-family: 'Advent Pro', sans-serif;
+	top: 45%;
+	left: 0;
+	position: relative;
+}
+
+.nav-menu h2.mb {
+	margin-bottom: -20px;
+	font-size: 2.25rem;
+}
+
+.nav-menu h2.mt {
+	margin-bottom: -60px;
+	font-size: 2.25rem;
+}
+
+.nav-menu.active {
+	display: block;
+}
+
+.nav-menu.active+.close-button {
+	display: block;
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+
+	#header-container {
+		width: 10vw;
+		padding: 8vw;
+		margin-left: 85vw;
+	}
+
+	.nav-menu {
+		text-align: center; /* Centralizando os elementos no contêiner */
+		text-decoration: none;
+		border: none;
+	}
+
+	.nav-menu h2 {
+		transform: rotate(-270deg);
+		align-items: center;
+		text-align: center;
+		margin-top: 30vw;
+	}
+
+	.nav-menu ul li a {
+		width: 25%; /* Distribuindo igualmente em 4 colunas */
+		text-decoration: none;
+		border: none;
+	}
+
+
+	.nav-menu a:hover {
+		border: none;
+  		text-decoration: none;
+		  border: none;
+	}	
+}
