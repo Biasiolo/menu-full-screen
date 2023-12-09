@@ -1,24 +1,23 @@
 {
     "name": "full-screen-navigation-menu",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A modern and interactive full-screen navigation menu to enhance user experience.",
     "main": "menuFullScreen.js",
     "keywords": [
-      "menu",
-      "navigation",
-      "full-screen",
-      "jquery",
-      "responsive",
-      "animation",
-      "modern",
-      "interactive",
-      "web",
-      "design"
+        "menu",
+        "navigation",
+        "full-screen",
+        "jquery",
+        "responsive",
+        "animation",
+        "modern",
+        "interactive",
+        "web",
+        "design"
     ],
     "author": "Biasiolo",
     "license": "MIT",
     "dependencies": {
-      "jquery": "^3.7.1"
+        "jquery": "^3.7.1"
     }
-  }
-  
+}
