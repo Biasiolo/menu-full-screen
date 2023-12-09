@@ -18,7 +18,7 @@ To use this full-screen navigation menu in your project, follow these steps:
 1. Install plugin:
 
 ```bash
-npm install menu-full-screen
+npm i full-screen-navigation-menu
 ```
 
 2. Include jQuery and the plugin in your HTML file:
