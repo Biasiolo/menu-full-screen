@@ -1,23 +1,15 @@
-Certainly! Here's a complete `README.md` file in Markdown format:
-
-```markdown
 # Full Screen Navigation Menu
 
-![Demo GIF](link-to-demo-gif.gif)
+[Live aplication](https://menu-full-screen.vercel.app/)
 
-A modern and interactive full-screen navigation menu designed to enhance user experience. The menu provides smooth animations, a clean design, and responsiveness for various screen sizes.
+Enhance your website with the Full Screen Navigation Menu, a modern and interactive solution designed to elevate user experience.
 
 ## Features
 
-- Stylish full-screen navigation menu
-- Responsive design for different screen sizes
-- Smooth animations for an enhanced user experience
+- Sleek Design: The menu features a clean and contemporary design that adds a touch of sophistication to your website.
+- Responsive Layout: The menu is crafted to ensure optimal performance on various screen sizes, making it user-friendly across devices.
 - Easy integration with your website or web application
 - Lightweight and customizable
-
-## Demo
-
-[View Demo](link-to-demo)
 
 ## Installation
 
