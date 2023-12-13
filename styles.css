@@ -203,6 +203,12 @@ body {
 		font-size: 4vw; /* Tamanho de texto responsivo */
 		padding: 5vw;
 	}
+
+	.dots-container {
+		width: 20vw;
+		height: 20vh;
+		overflow: none;
+	}
 }
 
 .dot {

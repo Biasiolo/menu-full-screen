@@ -17,20 +17,14 @@ function createAntDots() {
 
     for (var i = 0; i < numberOfDots; i++) {
         var dot = $("<div>").addClass("dot").html('<i class="fas fa-ant"></i>').appendTo(dotsContainer);
-
-        // Aplicar estilos diretamente ao ícone de formiga
-        dot.find('.fa-ant').css({
-            color: 'black', // Ajuste a cor conforme necessário
-            fontSize: '16px', // Ajuste o tamanho conforme necessário
-        });
     }
 }
 
 function animateAntDots() {
-    var centerX = window.innerWidth / 0.9;
-    var centerY = window.innerHeight / 1.2;
-    var allowedAreaX = window.innerWidth * 0.8;
-    var allowedAreaY = window.innerHeight * 0.8;
+    var centerX = window.innerWidth / 1;
+    var centerY = window.innerHeight / 1;
+    var allowedAreaX = window.innerWidth * 1;
+    var allowedAreaY = window.innerHeight * 1;
 
     $(".dot").each(function (index) {
         var dot = $(this);
@@ -38,7 +32,7 @@ function animateAntDots() {
         // Animação de movimento dos pontos para o centro
         dot.animate(
             {
-                left: centerX,
+                center: centerX,
                 top: centerY,
                 opacity: 0.2,
             },
