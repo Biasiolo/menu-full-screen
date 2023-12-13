@@ -1,7 +1,7 @@
 {
     "name": "full-screen-navigation-menu",
     "version": "1.0.2",
-    "description": "A modern and interactive full-screen navigation menu to enhance user experience.",
+    "description": "A modern and interactive solution designed to elevate user experience, with bubble animation.",
     "main": "menuFullScreen.js",
     "keywords": [
         "menu",
@@ -19,5 +19,10 @@
     "license": "MIT",
     "dependencies": {
         "jquery": "^3.7.1"
+    },
+    "homepage": "https://menu-full-screen.vercel.app/",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Biasiolo/menu-full-screen"
     }
 }

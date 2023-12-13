@@ -1,5 +1,5 @@
 # Full Screen Navigation Menu
-Enhance your website with the Full Screen Navigation Menu, a modern and interactive solution designed to elevate user experience.
+Enhance your website with the Full Screen Navigation Menu, a modern and interactive solution designed to upgrade user experience, with bubble animation.
 
 [Live aplication](https://menu-full-screen.vercel.app/)
 
@@ -12,6 +12,12 @@ Enhance your website with the Full Screen Navigation Menu, a modern and interact
 - Easy integration with your website or web application
 - Lightweight and customizable
 
+### New features
+- Bubble Animation:
+Explore a captivating visual experience with our new bubble animation. The screen comes to life with gracefully moving bubbles, creating an engaging and dynamic atmosphere.
+
+- Glassmorphism Aesthetics:
+Immerse yourself in the modern design trend with the addition of glassmorphism. The menu elements showcase a sleek glass-like appearance, providing a visually appealing and immersive user interface.
 ## Installation
 
 To use this full-screen navigation menu in your project, follow these steps:
