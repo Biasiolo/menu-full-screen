@@ -24,7 +24,7 @@ function animateAntDots() {
     var centerX = window.innerWidth / 1;
     var centerY = window.innerHeight / 1;
     var allowedAreaX = window.innerWidth * 1;
-    var allowedAreaY = window.innerHeight * 1;
+    var allowedAreaY = window.innerHeight * 0.5;
 
     $(".dot").each(function (index) {
         var dot = $(this);
