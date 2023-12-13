@@ -169,7 +169,7 @@ body {
 	#header-container {
 		width: 10vw;
 		padding: 8vw;
-		margin-left: 5vw;
+		margin-left: 85vw;
 	}
 
 	.nav-menu {
@@ -182,19 +182,21 @@ body {
 		transform: rotate(-270deg);
 		align-items: center;
 		text-align: center;
-		margin-top: 10vw;
+		margin-top: 30vw;
 	}
 
 	.nav-menu ul li a {
-		width: 100%; /* Utilizando toda a largura em telas menores */
+		width: 25%; /* Distribuindo igualmente em 4 colunas */
+		text-decoration: none;
+		border: none;
 	}
+
 
 	.nav-menu a:hover {
 		border: none;
   		text-decoration: none;
 		  border: none;
-	}
-
+	}	
 	.container {
 		margin-top: 5vh;
 	}
