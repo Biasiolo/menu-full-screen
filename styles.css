@@ -9,6 +9,8 @@ body {
 	font-family: 'Advent Pro', sans-serif;
 	overflow-x: hidden;
 	background-color:#3be3ff;
+	padding: 20px;
+	max-height: 100vh;
 }
 
 #header-container {
@@ -17,7 +19,7 @@ body {
 	display: table;
 	margin-left: 95vw;
 	max-width: none;
-	background-color: #e65454;
+
 	height: 5vw;
 	color: #fff;
 	border-bottom-left-radius: 5px;
@@ -27,6 +29,9 @@ body {
 	display: table-cell;
 	vertical-align: middle;
 	color: black;
+	position: absolute;
+	
+
 }
 
 .nav-trigger {
@@ -142,6 +147,29 @@ body {
 	display: block;
 }
 
+.container {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	margin-top: 22vh;
+	font-family: 'Advent Pro', sans-serif;
+	letter-spacing:8px;
+}
+
+.container h1 {
+	font-size: 50px;
+	padding: 80px;
+
+    backdrop-filter: blur(12px);
+
+
+    font-family: 'Arial', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+	border: 1px solid rgba(5, 5, 5, 0.5);
+	z-index: 999;
+}
+
 /* Responsividade */
 @media screen and (max-width: 768px) {
 
@@ -176,4 +204,21 @@ body {
   		text-decoration: none;
 		  border: none;
 	}	
+}
+
+
+.dot {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    background-color: rgba(253, 251, 251, 0.3);
+    border-radius: 50%;
+	box-shadow: 0 0 10px rgba(6, 98, 236, 0.3);
+
+}
+
+.dots-container {
+	width:80%;
+	height: 80%;
+	overflow: hidden;
 }
