@@ -8,18 +8,17 @@
 body {
 	font-family: 'Advent Pro', sans-serif;
 	overflow-x: hidden;
-	background-color:#3be3ff;
-	padding: 20px;
+	background-color: #3be3ff;
+	padding: 2%;
 	max-height: 100vh;
 }
 
 #header-container {
 	width: 5vw;
-	padding: 0 7%;
+	padding: 2%;
 	display: table;
-	margin-left: 95vw;
+	margin-left: 85vw;
 	max-width: none;
-
 	height: 5vw;
 	color: #fff;
 	border-bottom-left-radius: 5px;
@@ -30,16 +29,14 @@ body {
 	vertical-align: middle;
 	color: black;
 	position: absolute;
-	
-
 }
 
 .nav-trigger {
 	width: 30px;
 	height: 30px;
 	position: fixed;
-	top: 10px;
-	right: 10px;
+	top: 2%;
+	right: 2%;
 	z-index: 20;
 	cursor: pointer;
 	transition: top .2s ease-in;
@@ -55,7 +52,7 @@ body {
 }
 
 .nav-trigger.on {
-	top: 10px;
+	top: 2%;
 }
 
 .nav-trigger.on span:first-child {
@@ -143,7 +140,7 @@ body {
 	display: block;
 }
 
-.nav-menu.active+.close-button {
+.nav-menu.active + .close-button {
 	display: block;
 }
 
@@ -152,31 +149,27 @@ body {
 	justify-content: center;
 	text-align: center;
 	align-items: center;
-	margin-top: 22vh;
+	margin-top: 10vh;
 	font-family: 'Advent Pro', sans-serif;
-	letter-spacing:8px;
+	letter-spacing: 8px;
 }
 
 .container h1 {
-	font-size: 50px;
-	padding: 80px;
-
-    backdrop-filter: blur(12px);
-
-
-    font-family: 'Arial', sans-serif;
-    color: rgba(255, 255, 255, 0.5);
+	font-size: 4vw;
+	padding: 5vw;
+	backdrop-filter: blur(12px);
+	font-family: 'Arial', sans-serif;
+	color: rgba(255, 255, 255, 0.5);
 	border: 1px solid rgba(5, 5, 5, 0.5);
 	z-index: 999;
 }
 
 /* Responsividade */
 @media screen and (max-width: 768px) {
-
 	#header-container {
 		width: 10vw;
 		padding: 8vw;
-		margin-left: 85vw;
+		margin-left: 5vw;
 	}
 
 	.nav-menu {
@@ -189,36 +182,41 @@ body {
 		transform: rotate(-270deg);
 		align-items: center;
 		text-align: center;
-		margin-top: 30vw;
+		margin-top: 10vw;
 	}
 
 	.nav-menu ul li a {
-		width: 25%; /* Distribuindo igualmente em 4 colunas */
-		text-decoration: none;
-		border: none;
+		width: 100%; /* Utilizando toda a largura em telas menores */
 	}
-
 
 	.nav-menu a:hover {
 		border: none;
   		text-decoration: none;
 		  border: none;
-	}	
-}
+	}
 
+	.container {
+		margin-top: 5vh;
+	}
+
+	.container h1 {
+		font-size: 4vw; /* Tamanho de texto responsivo */
+		padding: 5vw;
+	}
+}
 
 .dot {
     position: absolute;
-    width: 64px;
-    height: 64px;
+    width: 4vw;
+    height: 4vw;
     background-color: rgba(253, 251, 251, 0.3);
     border-radius: 50%;
 	box-shadow: 0 0 10px rgba(6, 98, 236, 0.3);
-
+	backdrop-filter: blur(12px);
 }
 
 .dots-container {
-	width:80%;
+	width: 80%;
 	height: 80%;
 	overflow: hidden;
 }
