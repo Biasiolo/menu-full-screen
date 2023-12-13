@@ -1,6 +1,6 @@
 {
     "name": "full-screen-navigation-menu",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "A modern and interactive full-screen navigation menu to enhance user experience.",
     "main": "menuFullScreen.js",
     "keywords": [
