@@ -241,3 +241,8 @@ body {
 	height: 100%;
 	overflow: hidden;
 }
+
+.div-container{
+	max-width: 90%;
+	max-height:90%;
+}

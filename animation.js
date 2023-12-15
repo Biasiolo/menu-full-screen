@@ -8,7 +8,7 @@ $(document).ready(function () {
 
 function createAntDots() {
     // Crie um contêiner para os pontos
-    var dotsContainer = $("<div>").addClass("dots-container").appendTo("body");
+    var dotsContainer = $("<div>").addClass("dots-container").appendTo(".div-container");
 
     // Número de pontos
     var numberOfDots = 100;
