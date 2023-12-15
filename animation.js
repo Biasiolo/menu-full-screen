@@ -18,7 +18,7 @@ function createAntDots() {
 
         // Inicie cada ponto com posição e opacidade aleatórias
         dot.css({
-            center: Math.random() * window.innerWidth,
+            center: Math.random() * window.innerWidth * 0.9,
             top: Math.random() * (window.innerHeight * 0.9),
             opacity: Math.random(),
         });
@@ -26,7 +26,7 @@ function createAntDots() {
 }
 
 function animateAntDots() {
-    var allowedAreaX = window.innerWidth;
+    var allowedAreaX = window.innerWidth * 0.9;
     var allowedAreaY = window.innerHeight * 0.9;
 
     $(".dot").each(function (index) {
