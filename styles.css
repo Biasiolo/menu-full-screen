@@ -210,8 +210,8 @@ body {
 	}
 
 	.container h1 {
-		font-size: 4vw; /* Tamanho de texto responsivo */
-		padding: 5vw;
+		font-size: 10vw; /* Tamanho de texto responsivo */
+		padding: 15vw;
 	}
 
 	.dots-container {
